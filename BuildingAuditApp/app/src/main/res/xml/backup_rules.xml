@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<full-backup-content>
+    <!-- Токен доступу не повинен потрапляти в резервні копії. -->
+    <exclude domain="sharedpref" path="auth_session.xml" />
+</full-backup-content>
